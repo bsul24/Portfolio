@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Willam Sullivan Personal Portfolio Website</title>
+        <script src="https://kit.fontawesome.com/d6e1282c39.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto+Slab:wght@200&display=swap" 
+        rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+
+
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Bill Sullivan</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">prospective software dev</p>
+            <img src="images/headshot.jpg" alt="Headshot of Bill Sullivan" class="intro__img">
+        </section>
+
+
+        <!-- My services -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I do</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Past</h3>
+                    <p>I have a B.S. in Chemical Engineering and formerly worked as a Process Engineer for over two years. In that role, I was able to enhance critical skills in high pressure situations, such as problem solving and communication.</p>
+                </div>
+
+                <div class="service">
+                    <h3>Present</h3>
+                    <p>I am currently working to enhance my skillset to include elements of software development, including: web design using HTML, CSS, and JavaScript; creating useful algorithms and data structures using JavaScript and Python; database querying using SQL.</p>
+                </div>
+
+                <div class="service">
+                    <h3>Future</h3>
+                    <p>Going forward I am pursuing a career in software/web development where I can continue to grow as a programmer and contribute to a high functioning team to create solutions to complex software problems. I am actively searching for Software Developer roles in the greater Phoenix area and remotely.</p>
+                </div>
+            </div>
+
+            <a href="#work" class="btn">My Work</a>
+        </section>
+
+
+        <!-- About me -->
+        <section class="about-me" id="about">
+            <h2 class="section__title section__title--about">Who I am</h2>
+            <p class="section__subtitle section__subtitle--about">Software dev based out of Phoenix, AZ</p>
+
+            <div class="about-me__body">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
+                    consequat.</p>
+                <p>In my free time I enjoy playing sports, working out, cooking, playing video games, and 
+                spending time with my girlfriend and our cat.
+                </p>
+            </div>
+
+            <img src="images/BandC.jpg" alt="Bill and Corissa goofin" class="about-me__img">
+        </section>
+
+
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title">My work</h2>
+            <p class="section__subtitle section__subtitle--work">A series of fun mock sites</p>
+
+            <div class="portfolio">
+                <!-- Portfolio item 1 -->
+                <a href="#" class="portfolio__item">
+                    <img src="images/Pux Phil Page screenshot 2.png" alt="" class="portfolio__img">
+                </a>
+
+                <!-- Portfolio item 2 -->
+                <a href="#" class="portfolio__item">
+                    <img src="images/Dating survey form screenshot 2.png" alt="" class="portfolio__img">
+                </a>
+
+                <!-- Portfolio item 3 -->
+                <a href="#" class="portfolio__item">
+                    <img src="images/cube world screenshot 2.png" alt="" class="portfolio__img">
+                </a>
+
+                <!-- Portfolio item 4 -->
+                <a href="#" class="portfolio__item">
+                    <img src="images/HTML Doc page screenshot 2.png" alt="" class="portfolio__img">
+                </a>
+            </div>
+        </section>
+
+
+        <!-- Footer -->
+        <footer class="footer">
+            <a href="mailto:w.o.sullivan24@gmail.com" class="footer-link">w.o.sullivan24@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/bsul24" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" 
+                    href="https://www.linkedin.com/in/williamsullivan24?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bjt%2Fv9MRcSQGdzubkpVIkmA%3D%3D" 
+                    target="_blank">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </li>
+                <!-- <li class="social-list__item">
+                    <a class="social-list__link" href="">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </li> -->
+            </ul>
+        </footer>
+
+        <script src="js/index.js"></script>
+
+    </body>
+</html>
